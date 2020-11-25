@@ -120,4 +120,7 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .play-circle:hover {
+    fill: none;
+  }
 }
