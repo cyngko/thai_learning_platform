@@ -6,6 +6,11 @@
   --secondaryColor: #ff0505;
   --greyColor: #e5e5e5;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   padding: 0px 5%;
 }
@@ -15,6 +20,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   border-bottom: 1px solid var(--greyColor);
+  margin-bottom: 24px;
 }
 .Logo {
   display: flex;
@@ -38,4 +44,52 @@
 .flagRedStripe {
   height: 4px;
   background-color: var(--secondaryColor);
+}
+
+/* Word Blocks */
+.WordBlock {
+  width: 32%;
+  height: 120px;
+  border-radius: 15px;
+  border: 1px solid var(--greyColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin-bottom: 12px;
+}
+.Wb-main,
+.Wb-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Wb-info {
+  height: 90%;
+  align-items: center;
+}
+.Wb-title {
+  font-size: 48px;
+  font-family: var(--thai-font);
+}
+.thaiWord {
+  font-family: var(--thai-font);
+  font-size: 24px;
+}
+.pronunciation {
+  color: #999;
+}
+
+.WordBlockWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.blockTitle {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--primaryColor);
+  margin-bottom: 32px;
 }
