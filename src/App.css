@@ -2,42 +2,40 @@
 
 :root {
   --thai-font: 'Sarabun', sans-serif;
+  --primaryColor: #3b12e0;
+  --secondaryColor: #ff0505;
+  --greyColor: #e5e5e5;
 }
 .App {
-  text-align: center;
+  padding: 0px 5%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 1px solid var(--greyColor);
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--thai-font);
+}
+.flag {
+  width: 35px;
+  height: calc(10px + 2vmin);
+  margin-right: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.flagBlueStripe,
+.flagRedStripe {
+  width: 100%;
+  height: 8px;
+  background-color: var(--primaryColor);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flagRedStripe {
+  height: 4px;
+  background-color: var(--secondaryColor);
 }
