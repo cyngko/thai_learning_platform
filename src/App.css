@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
 :root {
   --thai-font: 'Sarabun', sans-serif;
+  --normal-font: 'Ubuntu', sans-serif;
   --primaryColor: #3b12e0;
   --secondaryColor: #ff0505;
   --greyColor: #e5e5e5;
@@ -23,11 +25,14 @@
   margin-bottom: 24px;
 }
 .Logo {
+  font-weight: 700;
   display: flex;
   align-items: center;
-  font-family: var(--thai-font);
+  font-family: var(--normal-font);
 }
 .flag {
+  border-radius: 2px;
+  overflow: hidden;
   width: 35px;
   height: calc(10px + 2vmin);
   margin-right: 8px;
@@ -38,18 +43,18 @@
 .flagBlueStripe,
 .flagRedStripe {
   width: 100%;
-  height: 8px;
+  height: 26%;
   background-color: var(--primaryColor);
 }
 .flagRedStripe {
-  height: 4px;
+  height: 20%;
   background-color: var(--secondaryColor);
 }
 
 /* Word Blocks */
 .WordBlock {
-  width: 32%;
-  height: 120px;
+  width: 370px;
+  height: 125px;
   border-radius: 15px;
   border: 1px solid var(--greyColor);
   display: flex;
@@ -80,6 +85,14 @@
 .pronunciation {
   color: #999;
 }
+.play-circle {
+  fill: #fff;
+  stroke: var(--primaryColor);
+  transition: fill 350ms ease-in-out;
+}
+.play-circle:hover {
+  fill: #9d84ff;
+}
 
 .WordBlockWrapper {
   display: flex;
@@ -88,8 +101,23 @@
   flex-wrap: wrap;
 }
 .blockTitle {
+  font-family: var(--normal-font);
   display: inline-block;
   padding-bottom: 8px;
   border-bottom: 3px solid var(--primaryColor);
   margin-bottom: 32px;
+  font-weight: 500;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .WordBlock {
+    width: 100%;
+  }
+  .blockTitle {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

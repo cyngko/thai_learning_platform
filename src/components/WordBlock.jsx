@@ -15,8 +15,6 @@ export default function WordBlock({ consonant }) {
       width='48'
       height='48'
       viewBox='0 0 24 24'
-      fill='none'
-      stroke='#3b12e0'
       strokeWidth='1'
       strokeLinecap='round'
       strokeLinejoin='round'

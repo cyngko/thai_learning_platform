@@ -8,7 +8,7 @@ export default function Logo() {
         <div className='flagBlueStripe'></div>
         <div className='flagRedStripe'></div>
       </div>
-      <p className='logoTitle'>Thaisify</p>
+      <span className='logoTitle'>Thaify</span>
     </div>
   );
 }
