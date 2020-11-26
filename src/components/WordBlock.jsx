@@ -1,11 +1,9 @@
 import React from 'react';
 import { Howl } from 'howler';
-import Sound from '../sounds/consonants/ก.mp3';
 
 export default function WordBlock({ consonant }) {
   const sound = new Howl({
     src: [consonant.sound],
-    html5: true,
   });
 
   const playBtn = (

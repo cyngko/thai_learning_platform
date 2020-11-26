@@ -402,10 +402,10 @@ export default function WordBlockContainer() {
   ];
   return (
     <div className='WordBlockContainer'>
-      <h2 className='blockTitle'>Consonants (พยัญชนะ)</h2>
+      <h2 className='blockTitle'>Konsonanten (พยัญชนะ)</h2>
       <div className='WordBlockWrapper'>
         {consonants.map((c) => (
-          <WordBlock consonant={c} />
+          <WordBlock consonant={c} key={c.id} />
         ))}
       </div>
     </div>
