@@ -1,9 +1,9 @@
 import React from 'react';
 import { Howl } from 'howler';
 
-export default function WordBlock({ consonant }) {
+export default function WordBlock({ value }) {
   const sound = new Howl({
-    src: [consonant.sound],
+    src: [value.sound],
   });
 
   const playBtn = (
@@ -25,13 +25,13 @@ export default function WordBlock({ consonant }) {
   return (
     <div className='WordBlock'>
       <div className='Wb-main'>
-        <p className='Wb-title'>{consonant.consonant}</p>
+        <p className='Wb-title'>{value.sign}</p>
         <p className='Wb-subtitle'>Beiwort</p>
       </div>
       <div className='Wb-info'>
-        <p className='thaiWord'>{consonant.word}</p>
-        <p className='pronunciation'>{consonant.wordPronunciation}</p>
-        <p className='translation'>{consonant.translation}</p>
+        <p className='thaiWord'>{value.word}</p>
+        <p className='pronunciation'>{value.wordPronunciation}</p>
+        <p className='translation'>{value.translation}</p>
       </div>
       {playBtn}
     </div>
