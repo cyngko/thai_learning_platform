@@ -1,7 +1,7 @@
 import React from 'react';
 import { Howl } from 'howler';
 
-export default function WordBlock({ value }) {
+export default function WordBlock({ value, subTitle }) {
   const sound = new Howl({
     src: [value.sound],
   });
@@ -26,7 +26,7 @@ export default function WordBlock({ value }) {
     <div className='WordBlock'>
       <div className='Wb-main'>
         <p className='Wb-title'>{value.sign}</p>
-        <p className='Wb-subtitle'>Beiwort</p>
+        <p className='Wb-subtitle'>{subTitle}</p>
       </div>
       <div className='Wb-info'>
         <p className='thaiWord'>{value.word}</p>
