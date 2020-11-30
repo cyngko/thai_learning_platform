@@ -35,6 +35,7 @@
   align-items: center;
   color: var(--primaryColor);
   font-family: var(--normal-font);
+  font-weight: 700;
 }
 .logoTitle {
   margin: 0px 8px;

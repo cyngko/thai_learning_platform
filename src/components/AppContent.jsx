@@ -829,6 +829,353 @@ export default function AppContent() {
       sound: Sound_เอิ,
       id: 24,
     },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>อี
+          <span style={{ color: 'red' }}>ยะ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ia',
+      translation: 'mittel',
+      sound: Sound_เอียะ,
+      id: 25,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>อี
+          <span style={{ color: 'red' }}>ย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ia',
+      translation: 'lang',
+      sound: Sound_เอีย,
+      id: 26,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>อื
+          <span style={{ color: 'red' }}>อะ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'uea',
+      translation: 'mittel',
+      sound: Sound_เอือะ,
+      id: 27,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>อื
+          <span style={{ color: 'red' }}>อ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'uea',
+      translation: 'lang',
+      sound: Sound_เอือ,
+      id: 28,
+    },
+    {
+      sign: (
+        <p>
+          อั
+          <span style={{ color: 'red' }}>วะ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ua',
+      translation: 'mittel',
+      sound: Sound_อัวะ,
+      id: 29,
+    },
+    {
+      sign: (
+        <p>
+          อั
+          <span style={{ color: 'red' }}>ว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ua',
+      translation: 'lang',
+      sound: Sound_อัว,
+      id: 30,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>ว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'aua',
+      translation: 'lang',
+      sound: Sound_อว,
+      id: 31,
+    },
+    {
+      sign: (
+        <p>
+          อิ<span style={{ color: 'red' }}>ว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'iu',
+      translation: 'lang',
+      sound: Sound_อิว,
+      id: 32,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>
+          อ็<span style={{ color: 'red' }}>อ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'o',
+      translation: 'lang',
+      sound: Sound_เอ็อ,
+      id: 33,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เเ</span>อ
+          <span style={{ color: 'red' }}>ว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'aeo',
+      translation: 'lang',
+      sound: Sound_เเอว,
+      id: 34,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>าว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ao',
+      translation: 'lang',
+      sound: Sound_อาว,
+      id: 35,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>
+          อี<span style={{ color: 'red' }}>ยว</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'iao',
+      translation: 'mittel',
+      sound: Sound_เอียว,
+      id: 36,
+    },
+    {
+      sign: (
+        <p>
+          อั
+          <span style={{ color: 'red' }}>ย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ai',
+      translation: 'mittel',
+      sound: Sound_อัย,
+      id: 37,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>ใ</span>อ
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ai',
+      translation: 'mittel',
+      sound: Sound_ใอ,
+      id: 38,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>ไ</span>อ
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ai',
+      translation: 'mittel',
+      sound: Sound_ไอ,
+      id: 39,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>าย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ai',
+      translation: 'lang',
+      sound: Sound_ไอย,
+      id: 40,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>าย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ai',
+      translation: 'lang',
+      sound: Sound_อาย,
+      id: 41,
+    },
+    {
+      sign: (
+        <p>
+          อ็
+          <span style={{ color: 'red' }}>อย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'oi',
+      translation: 'mittel',
+      sound: Sound_อ็อย,
+      id: 42,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>อย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'oi',
+      translation: 'lang',
+      sound: Sound_ออย,
+      id: 43,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>โ</span>อ
+          <span style={{ color: 'red' }}>ย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'oi',
+      translation: 'lang',
+      sound: Sound_โอย,
+      id: 44,
+    },
+    {
+      sign: (
+        <p>
+          อุ
+          <span style={{ color: 'red' }}>ย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ui',
+      translation: 'lang',
+      sound: Sound_อุย,
+      id: 45,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>อ
+          <span style={{ color: 'red' }}>ย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'oei',
+      translation: 'lang',
+      sound: Sound_เอย,
+      id: 46,
+    },
+    {
+      sign: (
+        <p>
+          อ<span style={{ color: 'red' }}>วย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'uai',
+      translation: 'lang',
+      sound: Sound_อวย,
+      id: 47,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>เ</span>
+          อื<span style={{ color: 'red' }}>อย</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'ueai',
+      translation: 'lang',
+      sound: Sound_เอือย,
+      id: 48,
+    },
+    {
+      sign: (
+        <p>
+          <span style={{ color: 'red' }}>อำ</span>
+        </p>
+      ),
+      wordPronunciation: '',
+      word: 'am',
+      translation: 'mittel',
+      sound: Sound_อำ,
+      id: 49,
+    },
+    {
+      sign: <p>ฤ</p>,
+      wordPronunciation: '',
+      word: 'rue',
+      translation: 'kurz',
+      sound: Sound_ฤ,
+      id: 50,
+    },
+    {
+      sign: <p>ฤๅ</p>,
+      wordPronunciation: '',
+      word: 'rue',
+      translation: 'lang',
+      sound: Sound_ฤๅ,
+      id: 51,
+    },
+    {
+      sign: <p>ฦ</p>,
+      wordPronunciation: '',
+      word: 'lue',
+      translation: 'kurz',
+      sound: Sound_ฦ,
+      id: 52,
+    },
+    {
+      sign: <p>ฦๅ</p>,
+      wordPronunciation: '',
+      word: 'lue',
+      translation: 'lang',
+      sound: Sound_ฦๅ,
+      id: 53,
+    },
   ];
   return (
     <div className='AppContent'>
