@@ -44,7 +44,7 @@
 
 /* Word Blocks */
 .WordBlock {
-  min-width: 370px;
+  width: 370px;
   height: 125px;
   border-radius: 15px;
   border: 1px solid var(--greyColor);
